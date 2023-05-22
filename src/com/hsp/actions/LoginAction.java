@@ -20,7 +20,7 @@ public class LoginAction extends Action {
 		//把form轉成對應的UserForm對象
 		UserForm userForm = (UserForm)form;
 		System.out.println("用戶名="+userForm.getUsername());
-		
+		 
 		return null;
 	}
 	
