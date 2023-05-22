@@ -9,7 +9,7 @@
 
 <body>
 
-	<form action="???" method="post">
+	<form action="/strutsLogin/login.do" method="post">
 		u:<input type="text" name="username"><br/>
 		p:<input type="password" name="password"><br/>
 		<input type="submit" values="login">
