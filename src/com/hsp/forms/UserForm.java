@@ -16,6 +16,7 @@ public class UserForm extends ActionForm {
 		return username;
 	}
 	public void setUsername(String username) {
+		System.out.println("actionServlet調用, 傳入用戶="+username);
 		this.username = username;
 	}
 	public String getPassword() {

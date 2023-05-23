@@ -22,6 +22,7 @@ public class LoginAction extends Action {
 		System.out.println("¥Î¤á¦W="+userForm.getUsername());
 		 
 		if("123".equals(userForm.getPassword())){
+			request.setAttribute("username", userForm.getUsername());
 			return mapping.findForward("ok");
 		}else {
 			return mapping.findForward("err");

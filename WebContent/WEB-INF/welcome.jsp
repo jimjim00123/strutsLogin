@@ -7,6 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-Welcome! 
+Welcome <%=request.getAttribute("username").toString() %><br>
+	<a href="/strutsLogin/">返回重新登入</a>
 </body>
 </html>
